@@ -175,13 +175,14 @@ body {
     background-color: #cd9a56;
 }
 
-.product {
+.product1 , .product2 {
     display: flex;
     justify-content: center;
     gap: 50px;
+    margin-bottom: 50px;
 }
 
-.taiwan-milk-tea , .taiwan-brownsugar , .caramel-milk-tea {
+.taiwan-milk-tea , .taiwan-brownsugar , .caramel-milk-tea , .coffee-milk-tea , .strawberry-milk-tea {
     border: solid;
     border-radius: 20px;
     height: 200px;
@@ -202,4 +203,12 @@ body {
 
 .caramel-milk-tea {
     background-image: url(resources/caramel-milk-tea.png);
+}
+
+.coffee-milk-tea {
+    background-image: url(resources/coffee-milk-tea.png);
+}
+
+.strawberry-milk-tea {
+    background-image: url(resources/strawberry-milk-tea.png);
 }
