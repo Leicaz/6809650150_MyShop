@@ -181,7 +181,7 @@ body {
     gap: 50px;
 }
 
-.taiwan-milk-tea , .taiwan-brownsugar {
+.taiwan-milk-tea , .taiwan-brownsugar , .caramel-milk-tea {
     border: solid;
     border-radius: 20px;
     height: 200px;
@@ -198,4 +198,8 @@ body {
 
 .taiwan-brownsugar {
     background-image: url(resources/taiwan-brownsugar.png);
+}
+
+.caramel-milk-tea {
+    background-image: url(resources/caramel-milk-tea.png);
 }
