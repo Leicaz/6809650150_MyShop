@@ -182,7 +182,7 @@ body {
     margin-bottom: 50px;
 }
 
-.taiwan-milk-tea , .taiwan-brownsugar , .caramel-milk-tea , .coffee-milk-tea , .strawberry-milk-tea {
+.taiwan-milk-tea , .taiwan-brownsugar , .caramel-milk-tea , .coffee-milk-tea , .strawberry-milk-tea , .taro-milk-tea {
     border: solid;
     border-radius: 20px;
     height: 200px;
@@ -211,4 +211,8 @@ body {
 
 .strawberry-milk-tea {
     background-image: url(resources/strawberry-milk-tea.png);
+}
+
+.taro-milk-tea {
+    background-image: url(resources/taro-milk-tea.png);
 }
