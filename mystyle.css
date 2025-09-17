@@ -60,7 +60,7 @@ p {
 
 .about-us {
     background-color: #cd9a56;
-    height: 260px;
+    min-height: 260px;
 }
 
 .header-about-us {
@@ -89,10 +89,60 @@ p {
 .video {
     background-color: #cd9a56;
     text-align: center;
-    height: 600px;
+    min-height: 600px;
 }
 
 video {
     height: 500px;
-    
+}
+
+.category-header {
+    text-align: center;
+    font-family: 'Lilita One';
+    font-size: 50px;
+    margin: 50px;
+}
+
+.milk-tea-title , .coffee-title {
+    text-align: center;
+    border: solid;
+    border-radius: 20px;
+    height: 200px;
+    width: 200px;
+    background-size: 200px;
+    background-position: center;
+}
+
+.milk-tea-title {
+    background-image: url(resources/boba.png);
+}
+
+.coffee-title {
+    background-image: url(resources/coffee.jpg);
+}
+
+.milk-tea-button {
+    font-family: 'Lilita One';
+    padding: 10px;
+    font-size: 25px;
+}
+
+.category-item {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+
+img {
+    width: 100px;
+}
+
+.coffee-button {
+    font-family: 'Lilita One';
+    padding: 10px;
+    font-size: 25px;
+}
+
+.category-page {
+    height: 400px;
 }
