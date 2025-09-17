@@ -203,7 +203,16 @@ span {
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
+    transition: transform 0.2s ease-in-out;
 }
+
+.taiwan-milk-tea:hover , .taiwan-brownsugar:hover , .caramel-milk-tea:hover, .coffee-milk-tea:hover , .strawberry-milk-tea:hover , .taro-milk-tea:hover , .melon-milk-tea:hover , .banana-milk-tea:hover {
+    transform: scale(1.05);
+    cursor: pointer;
+
+
+}
+
 
 .taiwan-milk-tea {
     background-image: url(resources/taiwan-milk-tea.png);
