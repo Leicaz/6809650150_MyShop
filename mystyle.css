@@ -168,3 +168,34 @@ img {
 span {
     font-weight: bold;
 }
+
+
+/* my first category page */
+body {
+    background-color: #cd9a56;
+}
+
+.product {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+
+.taiwan-milk-tea , .taiwan-brownsugar {
+    border: solid;
+    border-radius: 20px;
+    height: 200px;
+    width: 200px;
+    background-color: white;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.taiwan-milk-tea {
+    background-image: url(resources/taiwan-milk-tea.png);
+}
+
+.taiwan-brownsugar {
+    background-image: url(resources/taiwan-brownsugar.png);
+}
