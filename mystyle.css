@@ -146,3 +146,25 @@ img {
 .category-page {
     height: 400px;
 }
+
+.contact {
+    background-color: #cd9a56;
+    height: 130px;
+}
+
+.contact-title {
+    text-align: center;
+    font-family: 'Lilita One';
+    font-size: 30px;
+    padding: 20px;
+}
+
+.contact-info {
+    text-align: center;
+    font-family: 'Zain';
+    font-size: 20px;
+}
+
+span {
+    font-weight: bold;
+}
