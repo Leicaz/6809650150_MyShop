@@ -115,7 +115,7 @@ video {
     transition: transform 0.2s ease-in-out;
 }
 
-.milk-tea-title:hover {
+.milk-tea-title:hover , .coffee-title:hover {
     transform: scale(1.05);
     cursor: pointer;
 }
