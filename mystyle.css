@@ -209,8 +209,6 @@ span {
 .taiwan-milk-tea:hover , .taiwan-brownsugar:hover , .caramel-milk-tea:hover, .coffee-milk-tea:hover , .strawberry-milk-tea:hover , .taro-milk-tea:hover , .melon-milk-tea:hover , .banana-milk-tea:hover {
     transform: scale(1.05);
     cursor: pointer;
-
-
 }
 
 
@@ -244,4 +242,58 @@ span {
 
 .banana-milk-tea {
     background-image: url(resources/banana-milk-tea.png);
+}
+
+/* my second category page */
+.second-category {
+    background-color: #cd9a56;
+}
+
+.nescafe-coffee , .orange-americano , .honey-lemon-americano , .passion-americano , .americano , .capuccino , .mocha , .latte {
+    border: solid;
+    border-radius: 20px;
+    height: 200px;
+    width: 200px;
+    background-color: white;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    transition: transform 0.2s ease-in-out;
+}
+
+.nescafe-coffee:hover , .orange-americano:hover , .honey-lemon-americano:hover, .passion-americano:hover , .americano:hover , .capuccino:hover , .mocha:hover , .latte:hover {
+    transform: scale(1.05);
+    cursor: pointer;
+}
+
+.nescafe-coffee {
+    background-image: url(resources/nescafe-coffee.png);
+}
+
+.orange-americano {
+    background-image: url(resources/);
+}
+
+.honey-lemon-americano {
+    background-image: url(resources/honey-lemon-americano.png);
+}
+
+.passion-americano {
+    background-image: url(resources/passion-americano.png);
+}
+
+.americano {
+    background-image: url(resources/americano.png);
+}
+
+.capuccino {
+    background-image: url(resources/capuccino.png);
+}
+
+.mocha {
+    background-image: url(resources/mocha.png);
+}
+
+.latte {
+    background-image: url(resources/latte.png);
 }
