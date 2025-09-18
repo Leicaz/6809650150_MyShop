@@ -10,15 +10,22 @@ h1 {
 }
 
 nav {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
     background-color: #cd9a56;
     text-align: center;
     padding: 10px;
     color: white;
+    height: 20px;
 }
 
-span {
-    margin: 20px;
+nav a:hover {
+  transform: scale(1.05); 
+  transition: 0.2s ease-in-out;
+  color: bisque;
 }
+
 
 .header-background {
     background-image: url(resources/header-background.jpg);
@@ -58,7 +65,7 @@ p {
     font-size: 20px;
 }
 
-.about-us {
+#about-us {
     background-color: #cd9a56;
     min-height: 260px;
 }
@@ -86,7 +93,7 @@ p {
     color: white;
 }
 
-.video {
+#video {
     background-color: #cd9a56;
     text-align: center;
     min-height: 600px;
@@ -96,7 +103,7 @@ video {
     height: 500px;
 }
 
-.category-header {
+#category-header {
     text-align: center;
     font-family: 'Lilita One';
     font-size: 50px;
@@ -122,6 +129,7 @@ video {
 
 a {
     color: inherit;
+    text-decoration: none;
 }
 
 .milk-tea-title {
@@ -164,7 +172,7 @@ img {
     height: 130px;
 }
 
-.contact-title {
+#contact-title {
     text-align: center;
     font-family: 'Lilita One';
     font-size: 30px;
@@ -296,4 +304,8 @@ span {
 
 .latte {
     background-image: url(resources/latte.png);
+}
+
+.orange-americano {
+    background-image: url(resources/orange-americano.png);
 }
