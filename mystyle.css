@@ -18,6 +18,8 @@ nav {
     padding: 10px;
     color: white;
     height: 20px;
+    font-family: 'Zain';
+    font-size: 20px;
 }
 
 nav a:hover {
@@ -49,6 +51,8 @@ nav a:hover {
     top: 25%; 
     font-family: 'Cherry Bomb One';
     font-size: 80px;
+    text-shadow: 4px 4px 0 black;
+    color: #9b6b43;
 }
 
 p {
@@ -180,6 +184,9 @@ img {
 }
 
 .contact-info {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
     text-align: center;
     font-family: 'Zain';
     font-size: 20px;
@@ -191,8 +198,21 @@ span {
 
 
 /* my first category page */
-.first-category {
+.first-category , .second-category {
+    text-shadow: 4px 4px 0 black;
+    margin: 0px;
+}
+
+.first-category-header , .second-category-header {
+    color: #e6d498;
+    font-size: 100px;
+    padding: 30px;
+    margin: 0px;
     background-color: #cd9a56;
+}
+
+.second-category-header {
+    background-color: white;
 }
 
 .product1 , .product2 {
@@ -200,6 +220,9 @@ span {
     justify-content: center;
     gap: 50px;
     margin-bottom: 50px;
+}
+.product1 {
+    margin: 50px;
 }
 
 .taiwan-milk-tea , .taiwan-brownsugar , .caramel-milk-tea , .coffee-milk-tea , .strawberry-milk-tea , .taro-milk-tea , .melon-milk-tea , .banana-milk-tea {
